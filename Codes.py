@@ -13,7 +13,7 @@ import matplotlib.pyplot as plt
 
 #Upload Data and Check
 
-df = pd.read_csv(r'c:\users\ag\desktop\Projects\project 10\Valve_Player_Data.csv')
+df = pd.read_csv(r'Valve_Player_Data.csv')
 
 df.head()
 df.info(null_counts=True)
